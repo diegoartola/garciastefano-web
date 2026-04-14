@@ -188,7 +188,7 @@ export default async function Home() {
           </div>
 
           <div>
-            <p cclassName="text-[11px] uppercase tracking-[0.20em] text-slate-500 md:text-sm">
+            <p className="text-[11px] uppercase tracking-[0.20em] text-slate-500 md:text-sm">
               Ubicación
             </p>
             <p className="mt-2 text-[15px] font-semibold text-slate-900 md:text-lg">

@@ -491,6 +491,28 @@ export default async function Home() {
             <span className="text-xs text-blue-700 font-medium">Destacado</span>
           </div>
 
+          <div className="rounded-2xl border border-slate-200 bg-white p-5">
+            <p className="text-[11px] uppercase tracking-[0.2em] text-slate-500">
+              Guía práctica
+            </p>
+
+            <h3 className="mt-2 text-lg font-semibold text-slate-900">
+              Ingresos Brutos ARBA: guía práctica para Provincia de Buenos Aires
+            </h3>
+
+            <p className="mt-2 text-sm text-slate-600">
+              Qué es, quién debe inscribirse, cómo realizar el alta y qué
+              revisar antes de empezar.
+            </p>
+
+            <a
+              href="/ingresos-brutos-arba"
+              className="mt-3 inline-block text-sm font-semibold text-blue-700 hover:underline"
+            >
+              Leer guía completa →
+            </a>
+          </div>
+
           <div className="mt-12 grid gap-6 md:mt-14 md:grid-cols-2 xl:grid-cols-4">
             {officialUpdates.map((item) => (
               <article

@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import "./globals.css";
+import Script from "next/script";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://garciastefano.com.ar"),
@@ -60,10 +61,42 @@ export const metadata: Metadata = {
 
 export default function RootLayout({
   children,
-}: Readonly<{ children: React.ReactNode }>) {
+}: {
+  children: React.ReactNode;
+}) {
   return (
     <html lang="es-AR">
-      <body>{children}</body>
+      <body>
+        <Script
+          id="schema-local-business"
+          type="application/ld+json"
+          dangerouslySetInnerHTML={{
+            __html: JSON.stringify({
+              "@context": "https://schema.org",
+              "@type": "AccountingService",
+              name: "García Stefano",
+              image: "https://garciastefano.com.ar/og-image.jpg",
+              url: "https://garciastefano.com.ar",
+              telephone: "+5492215035412",
+              email: "info@garciastefano.com.ar",
+              address: {
+                "@type": "PostalAddress",
+                addressLocality: "La Plata",
+                addressRegion: "Buenos Aires",
+                addressCountry: "AR",
+              },
+              areaServed: {
+                "@type": "Place",
+                name: "La Plata y alrededores",
+              },
+              openingHours: "Mo-Fr 09:00-18:00",
+              sameAs: ["https://wa.me/5492215035412"],
+            }),
+          }}
+        />
+
+        {children}
+      </body>
     </html>
   );
 }

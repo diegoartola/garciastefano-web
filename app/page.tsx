@@ -8,7 +8,7 @@ export default async function Home() {
 
   return (
     <main className="min-h-screen bg-white text-slate-800">
-      <header className="sticky top-0 z-50 border-b border-slate-200/80 bg-white/90 backdrop-blur-md">
+      <header className="sticky top-0 z-40 border-b border-slate-200/80 bg-white/90 backdrop-blur-md">
         <div className="mx-auto flex max-w-7xl items-center justify-between px-4 py-3 md:px-6 md:py-4">
           <a href="#inicio" className="flex items-center">
             <Image
@@ -223,7 +223,7 @@ export default async function Home() {
             <span className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-700">
               Servicios
             </span>
-            <h2 className="mt-4 text-3xl font-bold tracking-tight text-slate-950 md:text-4xl">
+            <h2 className="mt-4 text-2xl font-bold tracking-tight text-slate-950 sm:text-3xl md:text-4xl">
               Soluciones diseñadas para clientes que buscan respaldo profesional
             </h2>
             <p className="mt-5 text-base leading-8 text-slate-600 md:text-lg">

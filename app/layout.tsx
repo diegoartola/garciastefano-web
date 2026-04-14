@@ -79,10 +79,13 @@ export default function RootLayout({
               url: "https://garciastefano.com.ar",
               telephone: "+5492215035412",
               email: "info@garciastefano.com.ar",
+              priceRange: "$$",
               address: {
                 "@type": "PostalAddress",
+                streetAddress: "La Plata",
                 addressLocality: "La Plata",
                 addressRegion: "Buenos Aires",
+                postalCode: "1900",
                 addressCountry: "AR",
               },
               areaServed: {

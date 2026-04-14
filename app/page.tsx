@@ -56,18 +56,17 @@ export default async function Home() {
         <div className="relative mx-auto grid max-w-7xl items-center gap-10 md:gap-16 lg:grid-cols-[1fr_1.15fr] motion-safe:animate-[fadeUp_.7s_ease-out]">
           <div className="text-center lg:text-left">
             <span className="inline-flex rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-[12px] font-medium text-blue-700 md:text-sm">
-              Estudio contable integral · La Plata
+              Estudio contable integral · La Plata · Atención online
             </span>
 
-            <h1 className="mx-auto mt-5 max-w-[12ch] text-[2.45rem] font-bold leading-[1.08] tracking-[-0.03em] text-slate-950 sm:max-w-none sm:text-5xl md:mt-6 md:text-5xl lg:mx-0 lg:text-6xl lg:leading-[1.05]">
-              Respaldo contable e impositivo con nivel profesional.
+            <h1 className="mx-auto mt-5 max-w-[13ch] text-[2.45rem] font-bold leading-[1.08] tracking-[-0.03em] text-slate-950 sm:max-w-none sm:text-5xl md:mt-6 md:text-5xl lg:mx-0 lg:text-6xl lg:leading-[1.05]">
+              Asesoramiento contable claro, cercano y sin vueltas.
             </h1>
 
-            <p className="mx-auto mt-5 max-w-[36rem] text-[1.05rem] leading-8 text-slate-600 sm:text-lg md:mt-6 md:max-w-2xl md:text-xl lg:mx-0">
-              Acompañamos a profesionales, pymes, responsables inscriptos y
-              estructuras empresariales con asesoramiento contable, impositivo y
-              administrativo orientado a la claridad, el control y la toma de
-              decisiones.
+            <p className="mx-auto mt-5 max-w-[38rem] text-[1.05rem] leading-8 text-slate-600 sm:text-lg md:mt-6 md:max-w-2xl md:text-xl lg:mx-0">
+              Te ayudamos con monotributo, impuestos, Ingresos Brutos ARBA y
+              organización contable. Atención profesional en La Plata, Las
+              Flores y también de forma online.
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center lg:justify-start">
@@ -77,20 +76,26 @@ export default async function Home() {
                 rel="noopener noreferrer"
                 className="rounded-2xl bg-blue-700 px-6 py-3.5 text-center font-semibold text-white shadow-lg shadow-blue-700/20 transition duration-300 hover:scale-[1.01] hover:bg-blue-800"
               >
-                Solicitar asesoramiento
+                Consultar por WhatsApp
               </a>
 
               <a
-                href="#contacto"
+                href="#servicios"
                 className="rounded-2xl border border-slate-300 bg-white px-6 py-3.5 text-center font-semibold text-slate-700 transition duration-300 hover:scale-[1.01] hover:border-blue-200 hover:bg-blue-50 hover:text-blue-700"
               >
-                Contacto
+                Ver servicios
               </a>
             </div>
 
             <p className="mt-4 text-sm text-slate-500">
               Respondemos habitualmente dentro de las 24 hs hábiles.
             </p>
+
+            <div className="mt-4 flex flex-col gap-2 text-sm text-slate-600 sm:flex-row sm:flex-wrap sm:gap-x-5 sm:gap-y-2 lg:justify-start">
+              <span>✔ Atención personalizada</span>
+              <span>✔ Respuesta clara y rápida</span>
+              <span>✔ Primera orientación sin compromiso</span>
+            </div>
 
             <div className="mt-8 grid gap-3 sm:grid-cols-3">
               <div className="rounded-2xl border border-slate-200 bg-white/90 px-5 py-4 shadow-sm">
@@ -162,7 +167,7 @@ export default async function Home() {
                 <div className="relative min-h-[280px] overflow-hidden rounded-[24px] ring-1 ring-slate-100 md:min-h-[420px] lg:min-h-[500px]">
                   <Image
                     src="/hero-office.jpg"
-                    alt="Oficina profesional del estudioß"
+                    alt="Oficina profesional del estudio"
                     fill
                     sizes="(max-width: 1024px) 100vw, 50vw"
                     className="object-cover"
@@ -499,7 +504,6 @@ export default async function Home() {
             >
               Leer guía completa →
             </a>
-            <span className="text-xs text-blue-700 font-medium">Destacado</span>
           </div>
 
           <div className="rounded-2xl border border-slate-200 bg-white p-5">
@@ -547,6 +551,11 @@ export default async function Home() {
             <p className="text-[11px] uppercase tracking-[0.2em] text-slate-500">
               Guía práctica
             </p>
+
+            <h3 className="mt-2 text-lg font-semibold text-slate-900">
+              Estudio contable en Las Flores: asesoramiento para profesionales y
+              pymes
+            </h3>
 
             <p className="mt-2 text-sm text-slate-600">
               Atención contable e impositiva en Las Flores, con acompañamiento
@@ -671,12 +680,13 @@ export default async function Home() {
 
           <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
             <a
-              href="https://wa.me/5492215035412?text=Hola,%20quisiera%20hacer%20una%20consulta"
+              href="https://wa.me/5492215035412?text=Hola,%20quiero%20hacer%20una%20consulta%20contable"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-xl bg-white px-6 py-3 text-center font-semibold text-blue-700 transition duration-300 hover:bg-blue-50"
+              aria-label="WhatsApp"
+              className="fixed bottom-4 right-4 z-50 flex items-center rounded-full bg-green-500 px-5 py-3 text-sm font-semibold text-white shadow-[0_12px_30px_rgba(34,197,94,0.35)] transition duration-300 hover:scale-[1.04] hover:bg-green-600 md:bottom-6 md:right-6"
             >
-              Escribinos por WhatsApp
+              WhatsApp
             </a>
 
             <a

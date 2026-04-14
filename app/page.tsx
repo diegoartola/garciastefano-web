@@ -468,6 +468,28 @@ export default async function Home() {
               actualizados a clientes, profesionales y empresas.
             </p>
           </div>
+          <div className="rounded-2xl border border-blue-200 bg-blue-50 p-5">
+            <p className="text-[11px] uppercase tracking-[0.2em] text-blue-700">
+              Guía práctica
+            </p>
+
+            <h3 className="mt-2 text-lg font-semibold text-slate-900">
+              Monotributo en Argentina: guía completa 2026
+            </h3>
+
+            <p className="mt-2 text-sm text-slate-600">
+              Qué es, cuánto se paga, cómo inscribirse y cuándo conviene cambiar
+              de régimen.
+            </p>
+
+            <a
+              href="/monotributo-argentina"
+              className="mt-3 inline-block text-sm font-semibold text-blue-700 hover:underline"
+            >
+              Leer guía completa →
+            </a>
+            <span className="text-xs text-blue-700 font-medium">Destacado</span>
+          </div>
 
           <div className="mt-12 grid gap-6 md:mt-14 md:grid-cols-2 xl:grid-cols-4">
             {officialUpdates.map((item) => (

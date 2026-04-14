@@ -18,5 +18,9 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: "https://garciastefano.com.ar/responsable-inscripto-vs-monotributo",
       lastModified: new Date(),
     },
+    {
+      url: "https://garciastefano.com.ar/estudio-contable-las-flores",
+      lastModified: new Date(),
+    },
   ];
 }

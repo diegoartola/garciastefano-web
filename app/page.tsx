@@ -535,6 +535,28 @@ export default async function Home() {
               Leer guía completa →
             </a>
           </div>
+          <div className="rounded-2xl border border-slate-200 bg-white p-5">
+            <p className="text-[11px] uppercase tracking-[0.2em] text-slate-500">
+              Guía práctica
+            </p>
+
+            <h3 className="mt-2 text-lg font-semibold text-slate-900">
+              Estudio contable en Las Flores: asesoramiento para profesionales y
+              pymes
+            </h3>
+
+            <p className="mt-2 text-sm text-slate-600">
+              Atención contable e impositiva en Las Flores, con acompañamiento
+              personalizado para profesionales, comercios y empresas.
+            </p>
+
+            <a
+              href="/estudio-contable-las-flores"
+              className="mt-3 inline-block text-sm font-semibold text-blue-700 hover:underline"
+            >
+              Leer guía completa →
+            </a>
+          </div>
 
           <div className="mt-12 grid gap-6 md:mt-14 md:grid-cols-2 xl:grid-cols-4">
             {officialUpdates.map((item) => (

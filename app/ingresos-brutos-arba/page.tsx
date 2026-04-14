@@ -114,6 +114,16 @@ export default function Page() {
             Consultar por WhatsApp
           </a>
         </div>
+        <p className="mt-6 text-sm text-slate-500">
+          También brindamos asesoramiento contable en
+          <a
+            href="/estudio-contable-las-flores"
+            className="ml-1 font-medium text-blue-600 hover:underline"
+          >
+            Las Flores
+          </a>
+          .
+        </p>
       </div>
     </main>
   );

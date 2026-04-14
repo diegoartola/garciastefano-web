@@ -449,9 +449,16 @@ export default async function Home() {
             </p>
           </div>
         </div>
-        <a href="/estudio-contable-las-flores">
-          Estudio contable en Las Flores
-        </a>
+        <p className="mt-6 text-sm text-slate-500">
+          También brindamos asesoramiento contable en
+          <a
+            href="/estudio-contable-las-flores"
+            className="text-blue-600 ml-1 hover:underline font-medium"
+          >
+            Las Flores (Buenos Aires)
+          </a>
+          .
+        </p>
       </section>
 
       <section
@@ -539,11 +546,6 @@ export default async function Home() {
             <p className="text-[11px] uppercase tracking-[0.2em] text-slate-500">
               Guía práctica
             </p>
-
-            <h3 className="mt-2 text-lg font-semibold text-slate-900">
-              Estudio contable en Las Flores: asesoramiento para profesionales y
-              pymes
-            </h3>
 
             <p className="mt-2 text-sm text-slate-600">
               Atención contable e impositiva en Las Flores, con acompañamiento

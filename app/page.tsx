@@ -349,32 +349,59 @@ export default async function Home() {
         </div>
       </section>
 
-      <section
-        id="clientes"
-        className="bg-slate-950 px-4 py-20 text-white md:px-6 md:py-24"
-      >
-        <div className="mx-auto grid max-w-7xl gap-10 lg:grid-cols-2">
-          <div>
-            <span className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-300">
-              Perfiles de clientes
-            </span>
-            <h2 className="mt-4 text-3xl font-bold tracking-tight md:text-4xl">
-              Un estudio preparado para acompañar distintos niveles de actividad
+      <section id="clientes" className="px-4 py-16 md:px-6 md:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="max-w-xl">
+            <p className="text-[11px] uppercase tracking-[0.2em] text-slate-500">
+              Clientes
+            </p>
+
+            <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 md:text-4xl">
+              Acompañamos a profesionales y empresas en su gestión diaria
             </h2>
-            <p className="mt-5 max-w-2xl text-base leading-8 text-slate-300 md:text-lg">
-              Trabajamos con una lógica profesional y ordenada, adaptable tanto
-              a clientes individuales como a estructuras con mayor exigencia
-              administrativa.
+
+            <p className="mt-4 text-base leading-7 text-slate-600">
+              Trabajamos con clientes que buscan orden, claridad y respaldo en
+              su gestión contable e impositiva.
             </p>
           </div>
 
-          <div className="grid gap-4 sm:grid-cols-2">
-            <PremiumBadge text="Profesionales independientes" />
-            <PremiumBadge text="Emprendedores" />
-            <PremiumBadge text="Monotributistas" />
-            <PremiumBadge text="Responsables inscriptos" />
-            <PremiumBadge text="Pymes" />
-            <PremiumBadge text="Empresas con estructura administrativa" />
+          <div className="mt-10 grid gap-6 sm:grid-cols-2">
+            <div className="rounded-2xl border border-slate-200 bg-white p-5">
+              <p className="text-sm font-semibold text-slate-900">
+                Profesionales independientes
+              </p>
+              <p className="mt-2 text-sm text-slate-600">
+                Acompañamiento integral en la gestión contable e impositiva.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-slate-200 bg-white p-5">
+              <p className="text-sm font-semibold text-slate-900">
+                Pymes y comercios
+              </p>
+              <p className="mt-2 text-sm text-slate-600">
+                Organización administrativa y seguimiento continuo.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-slate-200 bg-white p-5">
+              <p className="text-sm font-semibold text-slate-900">
+                Responsables inscriptos
+              </p>
+              <p className="mt-2 text-sm text-slate-600">
+                Cumplimiento fiscal y planificación impositiva.
+              </p>
+            </div>
+
+            <div className="rounded-2xl border border-slate-200 bg-white p-5">
+              <p className="text-sm font-semibold text-slate-900">
+                Empresas en crecimiento
+              </p>
+              <p className="mt-2 text-sm text-slate-600">
+                Asesoramiento para la toma de decisiones y expansión.
+              </p>
+            </div>
           </div>
         </div>
       </section>
@@ -556,6 +583,37 @@ export default async function Home() {
               className="rounded-xl border border-white/30 px-6 py-3 text-center font-semibold text-white transition duration-300 hover:bg-white/10"
             >
               Solicitar asesoramiento
+            </a>
+          </div>
+        </div>
+      </section>
+
+      <section className="border-t border-slate-200 bg-slate-50 px-4 py-16 md:px-6 md:py-20">
+        <div className="mx-auto max-w-3xl text-center">
+          <h2 className="text-3xl font-bold tracking-tight text-slate-950 md:text-4xl">
+            Estamos para acompañarte en tu gestión
+          </h2>
+
+          <p className="mt-4 text-base leading-7 text-slate-600">
+            Si necesitás ordenar tu información, cumplir con tus obligaciones o
+            tomar decisiones con mayor claridad, podemos ayudarte.
+          </p>
+
+          <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
+            <a
+              href="https://wa.me/5492215035412?text=Hola,%20quiero%20hacer%20una%20consulta%20contable"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="rounded-2xl bg-blue-700 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-700/20 transition hover:bg-blue-800"
+            >
+              Solicitar asesoramiento
+            </a>
+
+            <a
+              href="#contacto"
+              className="rounded-2xl border border-slate-300 bg-white px-6 py-3 text-sm font-semibold text-slate-700 transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-700"
+            >
+              Ir a contacto
             </a>
           </div>
         </div>

@@ -60,7 +60,7 @@ export default async function Home() {
             </span>
 
             <h1 className="mx-auto mt-5 max-w-[13ch] text-[2.45rem] font-bold leading-[1.08] tracking-[-0.03em] text-slate-950 sm:max-w-none sm:text-5xl md:mt-6 md:text-5xl lg:mx-0 lg:text-6xl lg:leading-[1.05]">
-              Asesoramiento contable claro, cercano y sin vueltas.
+              Asesoramiento contable claro, cercano y profesional.
             </h1>
 
             <p className="mx-auto mt-5 max-w-[38rem] text-[1.05rem] leading-8 text-slate-600 sm:text-lg md:mt-6 md:max-w-2xl md:text-xl lg:mx-0">
@@ -616,7 +616,7 @@ export default async function Home() {
           className="absolute inset-0 bg-cover bg-center"
           style={{ backgroundImage: "url('/bg-contact.jpg')" }}
         />
-        <div className="absolute inset-0 bg-white/70" />
+        <div className="absolute inset-0 bg-white/75" />
 
         <div className="relative mx-auto max-w-7xl">
           <div className="mb-10 max-w-3xl">
@@ -624,25 +624,33 @@ export default async function Home() {
               Contacto
             </span>
             <h2 className="mt-4 text-3xl font-bold tracking-tight text-slate-950 md:text-4xl">
-              Estamos para ayudarte
+              Hablemos sobre tu situación
             </h2>
             <p className="mt-5 max-w-2xl text-base leading-8 text-slate-600 md:text-lg">
-              Podés escribirnos para realizar una consulta, solicitar
-              asesoramiento o conocer mejor nuestros servicios. Te responderemos
-              con un enfoque claro, profesional y personalizado.
+              Si necesitás ayuda con monotributo, impuestos, Ingresos Brutos
+              ARBA o gestión contable, escribinos. Te damos una primera
+              orientación clara y sin compromiso.
             </p>
           </div>
 
-          <div className="grid gap-8 lg:grid-cols-[0.9fr_1.1fr]">
+          <div className="grid gap-8 lg:grid-cols-[0.95fr_1.05fr]">
             <div className="rounded-[28px] bg-white/92 p-6 shadow-[0_20px_60px_-30px_rgba(15,23,42,0.35)] ring-1 ring-slate-200 backdrop-blur-sm md:p-8">
               <p className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-700">
-                Información de contacto
+                Formas de contacto
               </p>
 
               <div className="mt-6 space-y-5 text-slate-700">
                 <div className="rounded-2xl bg-slate-50 p-5 ring-1 ring-slate-100">
-                  <p className="font-semibold text-slate-950">Ubicación</p>
-                  <p className="mt-1">La Plata, Buenos Aires, Argentina</p>
+                  <p className="font-semibold text-slate-950">Atención</p>
+                  <p className="mt-1">
+                    La Plata, Las Flores y consultas online en toda la
+                    provincia.
+                  </p>
+                </div>
+
+                <div className="rounded-2xl bg-slate-50 p-5 ring-1 ring-slate-100">
+                  <p className="font-semibold text-slate-950">WhatsApp</p>
+                  <p className="mt-1">+54 9 221 5035412</p>
                 </div>
 
                 <div className="rounded-2xl bg-slate-50 p-5 ring-1 ring-slate-100">
@@ -651,10 +659,37 @@ export default async function Home() {
                 </div>
 
                 <div className="rounded-2xl bg-slate-50 p-5 ring-1 ring-slate-100">
-                  <p className="font-semibold text-slate-950">WhatsApp</p>
-                  <p className="mt-1">+54 9 221 5035412</p>
+                  <p className="font-semibold text-slate-950">
+                    Qué podés consultarnos
+                  </p>
+                  <p className="mt-1">
+                    Monotributo, ARBA, impuestos, responsables inscriptos y
+                    organización contable.
+                  </p>
                 </div>
               </div>
+
+              <div className="mt-6 flex flex-col gap-3">
+                <a
+                  href="https://wa.me/5492215035412?text=Hola,%20quiero%20hacer%20una%20consulta%20contable"
+                  target="_blank"
+                  rel="noopener noreferrer"
+                  className="rounded-2xl bg-blue-700 px-5 py-3 text-center font-semibold text-white transition hover:bg-blue-800"
+                >
+                  Escribinos por WhatsApp
+                </a>
+
+                <a
+                  href="mailto:info@garciastefano.com.ar"
+                  className="rounded-2xl border border-slate-300 bg-white px-5 py-3 text-center font-semibold text-slate-700 transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-700"
+                >
+                  Enviar email
+                </a>
+              </div>
+
+              <p className="mt-4 text-sm text-slate-500">
+                Respondemos habitualmente dentro de las 24 hs hábiles.
+              </p>
             </div>
 
             <ContactForm />

@@ -216,119 +216,135 @@ export default async function Home() {
         </div>
       </section>
 
-      <section id="servicios" className="px-4 py-20 md:px-6 md:py-24">
-        <div className="mx-auto max-w-7xl">
-          <div className="mx-auto max-w-3xl text-center">
-            <span className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-700">
+      <section id="servicios" className="px-4 py-16 md:px-6 md:py-20">
+        <div className="mx-auto max-w-5xl">
+          <div className="max-w-xl">
+            <p className="text-[11px] uppercase tracking-[0.2em] text-slate-500">
               Servicios
-            </span>
-            <h2 className="mt-4 text-2xl font-bold tracking-tight text-slate-950 sm:text-3xl md:text-4xl">
-              Soluciones diseñadas para clientes que buscan respaldo profesional
+            </p>
+
+            <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 md:text-4xl">
+              Acompañamiento contable, impositivo y administrativo
             </h2>
-            <p className="mt-5 text-base leading-8 text-slate-600 md:text-lg">
-              Brindamos acompañamiento contable e impositivo con una mirada
-              práctica, clara y orientada a la organización de cada actividad.
+
+            <p className="mt-4 text-base leading-7 text-slate-600">
+              Brindamos asesoramiento integral orientado a ordenar, controlar y
+              acompañar la gestión diaria de profesionales, pymes y empresas.
             </p>
           </div>
 
-          <div className="mt-12 grid gap-6 md:mt-14 md:grid-cols-2 xl:grid-cols-3">
-            <ServiceCard
-              title="Monotributo"
-              text="Alta, modificación de datos, recategorización, control de vencimientos y gestión mensual."
-            />
-            <ServiceCard
-              title="Impuestos"
-              text="Liquidación y presentación de impuestos nacionales, provinciales y municipales."
-            />
-            <ServiceCard
-              title="Sueldos"
-              text="Liquidación de haberes, cargas sociales y asistencia en tareas administrativas vinculadas."
-            />
-            <ServiceCard
-              title="Responsables inscriptos"
-              text="Seguimiento impositivo, registraciones y cumplimiento de obligaciones periódicas."
-            />
-            <ServiceCard
-              title="Empresas"
-              text="Asistencia contable integral para pymes y estructuras con necesidades administrativas más amplias."
-            />
-            <ServiceCard
-              title="Asesoramiento profesional"
-              text="Orientación clara para ordenar la situación fiscal, administrativa y contable."
-            />
+          <div className="mt-10 divide-y divide-slate-200">
+            <div className="py-6">
+              <h3 className="text-lg font-semibold text-slate-900">
+                Gestión contable
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                Registración, análisis y seguimiento de la información contable
+                para mantener claridad y orden en la gestión.
+              </p>
+            </div>
+
+            <div className="py-6">
+              <h3 className="text-lg font-semibold text-slate-900">
+                Asesoramiento impositivo
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                Liquidación de impuestos, planificación fiscal y cumplimiento de
+                obligaciones ante organismos.
+              </p>
+            </div>
+
+            <div className="py-6">
+              <h3 className="text-lg font-semibold text-slate-900">
+                Administración y soporte
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                Acompañamiento en procesos administrativos, organización interna
+                y mejora de circuitos de trabajo.
+              </p>
+            </div>
+
+            <div className="py-6">
+              <h3 className="text-lg font-semibold text-slate-900">
+                Consultoría y seguimiento
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                Análisis y asesoramiento continuo para la toma de decisiones con
+                información confiable.
+              </p>
+            </div>
           </div>
         </div>
       </section>
 
       <section
         id="autoridad"
-        className="bg-slate-50 px-4 py-20 md:px-6 md:py-24"
+        className="border-t border-slate-200 bg-slate-50 px-4 py-16 md:px-6 md:py-20"
       >
-        <div className="mx-auto max-w-7xl">
-          <div className="mx-auto max-w-3xl text-center">
-            <span className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-700">
+        <div className="mx-auto max-w-5xl">
+          <div className="max-w-xl">
+            <p className="text-[11px] uppercase tracking-[0.2em] text-slate-500">
               Por qué elegirnos
-            </span>
-            <h2 className="mt-4 text-3xl font-bold tracking-tight text-slate-950 md:text-4xl">
-              Un estudio enfocado en criterio, orden y acompañamiento
-              profesional
+            </p>
+
+            <h2 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 md:text-4xl">
+              Un enfoque basado en criterio, cercanía y confianza
             </h2>
-            <p className="mt-5 text-base leading-8 text-slate-600 md:text-lg">
-              Nuestra propuesta combina atención cercana con una mirada
-              profesional orientada a la organización, el cumplimiento y la
-              claridad en la gestión.
+
+            <p className="mt-4 text-base leading-7 text-slate-600">
+              Trabajamos con una mirada integral que prioriza la claridad, la
+              comunicación y el acompañamiento constante.
             </p>
           </div>
 
-          <div className="mt-12 grid gap-6 md:mt-14 md:grid-cols-2 xl:grid-cols-4">
-            <AuthorityCard
-              title="Atención personalizada"
-              text="Cada consulta recibe seguimiento directo, respuestas claras y acompañamiento profesional."
-            />
-            <AuthorityCard
-              title="Visión integral"
-              text="Abordamos lo contable, impositivo y administrativo de forma coordinada y ordenada."
-            />
-            <AuthorityCard
-              title="Criterio profesional"
-              text="Priorizamos previsibilidad, cumplimiento y decisiones con respaldo técnico."
-            />
-            <AuthorityCard
-              title="Relación de confianza"
-              text="Buscamos generar tranquilidad, cercanía y continuidad en el tiempo."
-            />
+          <div className="mt-10 grid gap-8 md:grid-cols-2">
+            <div>
+              <h3 className="text-base font-semibold text-slate-900">
+                Visión integral
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                No trabajamos por partes aisladas. Analizamos cada situación de
+                forma global para dar respuestas coherentes y sostenibles.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-base font-semibold text-slate-900">
+                Cercanía y seguimiento
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                Mantenemos una relación directa con cada cliente, acompañando de
+                forma continua y con disponibilidad real.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-base font-semibold text-slate-900">
+                Claridad en la comunicación
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                Explicamos cada aspecto de forma clara, evitando complejidades
+                innecesarias y generando confianza en cada decisión.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-base font-semibold text-slate-900">
+                Respaldo profesional
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                Trabajo responsable, actualizado y alineado con las normativas
+                vigentes.
+              </p>
+            </div>
           </div>
-
-          <div className="mt-10 grid gap-6 rounded-[28px] border border-slate-200 bg-white p-6 shadow-sm md:p-8 lg:grid-cols-3">
-            <div>
-              <p className="text-2xl font-bold text-blue-700 md:text-3xl">
-                Profesionales
-              </p>
-              <p className="mt-2 text-sm leading-7 text-slate-600">
-                Acompañamiento claro para quienes necesitan respaldo confiable
-                en su actividad diaria.
-              </p>
-            </div>
-
-            <div>
-              <p className="text-2xl font-bold text-blue-700 md:text-3xl">
-                Pymes
-              </p>
-              <p className="mt-2 text-sm leading-7 text-slate-600">
-                Soporte contable e impositivo para estructuras que requieren
-                orden y seguimiento constante.
-              </p>
-            </div>
-
-            <div>
-              <p className="text-2xl font-bold text-blue-700 md:text-3xl">
-                Empresas
-              </p>
-              <p className="mt-2 text-sm leading-7 text-slate-600">
-                Enfoque profesional para organizaciones que valoran control,
-                criterio y acompañamiento integral.
-              </p>
-            </div>
+          <div className="mt-12">
+            <a
+              href="#contacto"
+              className="inline-block rounded-2xl bg-blue-700 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-700/20 transition hover:bg-blue-800"
+            >
+              Contactanos
+            </a>
           </div>
         </div>
       </section>

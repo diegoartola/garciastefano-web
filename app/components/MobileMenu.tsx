@@ -73,14 +73,14 @@ export default function MobileMenu() {
           type="button"
           aria-label="Cerrar menú"
           onClick={handleClose}
-          className={`absolute inset-0 bg-slate-950/55 backdrop-blur-md transition-opacity duration-300 ${
+          className={`absolute inset-0 bg-slate-950/72 backdrop-blur-xl transition-opacity duration-300 ${
             open ? "opacity-100" : "opacity-0"
           }`}
         />
 
         <aside
           id="mobile-menu-panel"
-          className={`fixed right-0 top-0 z-[110] flex h-[100dvh] w-[82%] max-w-[330px] flex-col border-l border-slate-200 bg-white shadow-[0_24px_60px_-24px_rgba(15,23,42,0.28)] transition-transform duration-300 ease-out ${
+          className={`fixed right-0 top-0 z-[110] flex h-[100dvh] w-[88%] max-w-[360px] flex-col border-l border-slate-200 bg-white shadow-[0_24px_60px_-24px_rgba(15,23,42,0.28)] transition-transform duration-300 ease-out ${
             open ? "translate-x-0" : "translate-x-full"
           }`}
         >

@@ -1,6 +1,7 @@
 import Image from "next/image";
 import { getOfficialUpdates } from "./lib/getOfficialUpdates";
 import ContactForm from "@/app/components/ContactForm";
+import MobileMenu from "@/app/components/MobileMenu";
 
 export default async function Home() {
   const officialUpdates = await getOfficialUpdates();
@@ -42,12 +43,7 @@ export default async function Home() {
             </a>
           </nav>
 
-          <a
-            href="#contacto"
-            className="rounded-xl border border-slate-300 bg-white px-4 py-2 text-sm font-semibold text-slate-700 transition duration-300 hover:border-blue-200 hover:bg-blue-50 hover:text-blue-700 md:hidden"
-          >
-            Contacto
-          </a>
+          <MobileMenu />
         </div>
       </header>
 
@@ -375,8 +371,12 @@ export default async function Home() {
               Estudio
             </span>
             <h2 className="mt-4 text-3xl font-bold tracking-tight text-slate-950 md:text-4xl">
-              Un enfoque basado en cercanía, criterio profesional y confianza
+              Un estudio con base profesional, cercanía y mirada integral
             </h2>
+
+            <div className="mt-6 inline-flex rounded-2xl border border-blue-100 bg-blue-50 px-4 py-3 text-sm font-medium text-blue-800">
+              Graduadas en la Universidad Nacional de La Plata
+            </div>
           </div>
 
           <div className="space-y-6 text-base leading-8 text-slate-600 md:text-lg">
@@ -386,13 +386,15 @@ export default async function Home() {
               clara.
             </p>
             <p>
-              Nuestro objetivo es acompañar a cada cliente con soluciones
-              prácticas, brindando respaldo en lo contable, impositivo y
-              administrativo.
+              El estudio está conformado por profesionales graduadas en la
+              Universidad Nacional de La Plata, con una propuesta enfocada en
+              brindar respaldo contable, impositivo y administrativo con
+              criterio, orden y cercanía.
             </p>
             <p>
-              Apostamos a un servicio serio, ordenado y confiable, pensado para
-              quienes valoran la claridad y el acompañamiento profesional.
+              Nuestro objetivo es acompañar a cada cliente con soluciones
+              prácticas y confiables, generando claridad en la gestión y un
+              vínculo profesional sostenido en el tiempo.
             </p>
           </div>
         </div>

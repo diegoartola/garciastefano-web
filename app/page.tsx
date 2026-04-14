@@ -49,7 +49,7 @@ export default async function Home() {
 
       <section
         id="inicio"
-        className="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(37,99,235,0.08),_transparent_30%),linear-gradient(to_bottom,_#ffffff,_#f8fbff)] px-4 pt-12 pb-14 md:px-6 md:pt-28 md:pb-20"
+        className="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(37,99,235,0.08),_transparent_30%),linear-gradient(to_bottom,_#ffffff,_#f8fbff)] scroll-mt-28 px-4 pt-12 pb-14 md:px-6 md:pt-28 md:pb-20"
       >
         <div className="absolute inset-0 opacity-[0.03] [background-image:linear-gradient(to_right,#0f172a_1px,transparent_1px),linear-gradient(to_bottom,#0f172a_1px,transparent_1px)] [background-size:40px_40px] md:[background-size:48px_48px]" />
 

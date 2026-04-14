@@ -49,22 +49,21 @@ export default async function Home() {
 
       <section
         id="inicio"
-        className="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(37,99,235,0.08),_transparent_30%),linear-gradient(to_bottom,_#ffffff,_#f8fbff)] px-4 pt-16 pb-16 md:px-6 md:pt-28 md:pb-20"
+        className="relative overflow-hidden bg-[radial-gradient(circle_at_top_left,_rgba(37,99,235,0.08),_transparent_30%),linear-gradient(to_bottom,_#ffffff,_#f8fbff)] px-4 pt-12 pb-14 md:px-6 md:pt-28 md:pb-20"
       >
         <div className="absolute inset-0 opacity-[0.03] [background-image:linear-gradient(to_right,#0f172a_1px,transparent_1px),linear-gradient(to_bottom,#0f172a_1px,transparent_1px)] [background-size:40px_40px] md:[background-size:48px_48px]" />
 
         <div className="relative mx-auto grid max-w-7xl items-center gap-10 md:gap-16 lg:grid-cols-[1fr_1.15fr] motion-safe:animate-[fadeUp_.7s_ease-out]">
           <div className="text-center lg:text-left">
-            <span className="inline-flex rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-xs font-medium text-blue-700 md:text-sm">
+            <span className="inline-flex rounded-full border border-blue-200 bg-blue-50 px-4 py-2 text-[12px] font-medium text-blue-700 md:text-sm">
               Estudio contable integral · La Plata
             </span>
 
-            <h1 className="mt-5 text-[2.2rem] font-bold leading-[1.12] tracking-tight text-slate-950 sm:text-4xl md:mt-6 md:text-5xl lg:text-6xl lg:leading-[1.05]">
-              Respaldo contable e impositivo con nivel profesional y visión
-              integral.
+            <h1 className="mx-auto mt-5 max-w-[12ch] text-[2.45rem] font-bold leading-[1.08] tracking-[-0.03em] text-slate-950 sm:max-w-none sm:text-5xl md:mt-6 md:text-5xl lg:mx-0 lg:text-6xl lg:leading-[1.05]">
+              Respaldo contable e impositivo con nivel profesional.
             </h1>
 
-            <p className="mx-auto mt-5 max-w-xl text-[1.05rem] leading-8 text-slate-600 sm:text-lg md:mt-6 md:max-w-2xl md:text-xl lg:mx-0">
+            <p className="mx-auto mt-5 max-w-[36rem] text-[1.05rem] leading-8 text-slate-600 sm:text-lg md:mt-6 md:max-w-2xl md:text-xl lg:mx-0">
               Acompañamos a profesionales, pymes, responsables inscriptos y
               estructuras empresariales con asesoramiento contable, impositivo y
               administrativo orientado a la claridad, el control y la toma de
@@ -76,14 +75,14 @@ export default async function Home() {
                 href="https://wa.me/5492215035412?text=Hola,%20quiero%20hacer%20una%20consulta%20contable"
                 target="_blank"
                 rel="noopener noreferrer"
-                className="rounded-xl bg-blue-700 px-6 py-3 text-center font-semibold text-white shadow-lg shadow-blue-700/20 transition duration-300 hover:scale-[1.01] hover:bg-blue-800"
+                className="rounded-2xl bg-blue-700 px-6 py-3.5 text-center font-semibold text-white shadow-lg shadow-blue-700/20 transition duration-300 hover:scale-[1.01] hover:bg-blue-800"
               >
                 Solicitar asesoramiento
               </a>
 
               <a
                 href="#contacto"
-                className="rounded-xl border border-slate-300 bg-white px-6 py-3 text-center font-semibold text-slate-700 transition duration-300 hover:scale-[1.01] hover:border-blue-200 hover:bg-blue-50 hover:text-blue-700"
+                className="rounded-2xl border border-slate-300 bg-white px-6 py-3.5 text-center font-semibold text-slate-700 transition duration-300 hover:scale-[1.01] hover:border-blue-200 hover:bg-blue-50 hover:text-blue-700"
               >
                 Contacto
               </a>
@@ -93,30 +92,30 @@ export default async function Home() {
               Respondemos habitualmente dentro de las 24 hs hábiles.
             </p>
 
-            <div className="mt-8 grid gap-4 sm:grid-cols-3">
-              <div className="rounded-2xl border border-slate-200 bg-white/90 p-5 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
-                <p className="text-xl font-bold text-slate-900 md:text-2xl">
+            <div className="mt-8 grid gap-3 sm:grid-cols-3">
+              <div className="rounded-2xl border border-slate-200 bg-white/90 px-5 py-4 shadow-sm">
+                <p className="text-base font-semibold text-slate-900 md:text-lg">
                   Integral
                 </p>
-                <p className="mt-1 text-sm text-slate-600">
-                  Enfoque contable, impositivo y administrativo.
+                <p className="mt-1 text-sm leading-6 text-slate-600">
+                  Contable, impositivo y administrativo.
                 </p>
               </div>
 
-              <div className="rounded-2xl border border-slate-200 bg-white/90 p-5 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
-                <p className="text-xl font-bold text-slate-900 md:text-2xl">
+              <div className="rounded-2xl border border-slate-200 bg-white/90 px-5 py-4 shadow-sm">
+                <p className="text-base font-semibold text-slate-900 md:text-lg">
                   Cercano
                 </p>
-                <p className="mt-1 text-sm text-slate-600">
-                  Atención personalizada y seguimiento profesional.
+                <p className="mt-1 text-sm leading-6 text-slate-600">
+                  Atención personalizada y seguimiento.
                 </p>
               </div>
 
-              <div className="rounded-2xl border border-slate-200 bg-white/90 p-5 shadow-sm transition duration-300 hover:-translate-y-1 hover:shadow-lg">
-                <p className="text-xl font-bold text-slate-900 md:text-2xl">
+              <div className="rounded-2xl border border-slate-200 bg-white/90 px-5 py-4 shadow-sm">
+                <p className="text-base font-semibold text-slate-900 md:text-lg">
                   Confiable
                 </p>
-                <p className="mt-1 text-sm text-slate-600">
+                <p className="mt-1 text-sm leading-6 text-slate-600">
                   Respaldo profesional y comunicación clara.
                 </p>
               </div>
@@ -124,9 +123,9 @@ export default async function Home() {
           </div>
 
           <div className="flex justify-center lg:justify-end">
-            <div className="w-full max-w-[760px] rounded-[28px] border border-slate-200 bg-white p-4 shadow-[0_20px_70px_-20px_rgba(15,23,42,0.20)] md:rounded-[32px] md:p-6">
-              <div className="grid gap-5 lg:grid-cols-[0.95fr_1.25fr]">
-                <div className="rounded-[24px] bg-[linear-gradient(135deg,#ffffff,#f1f6ff)] p-6 ring-1 ring-slate-100 md:p-8">
+            <div className="w-full max-w-[760px] rounded-[28px] border border-slate-200 bg-white p-3 shadow-[0_20px_70px_-20px_rgba(15,23,42,0.20)] md:rounded-[32px] md:p-6">
+              <div className="grid gap-4 lg:grid-cols-[0.95fr_1.25fr]">
+                <div className="rounded-[24px] bg-[linear-gradient(135deg,#ffffff,#f4f8ff)] p-5 ring-1 ring-slate-100 md:p-8">
                   <Image
                     src="/logo-garcia-stefano.png"
                     alt="García Stefano Estudio Contable Integral"
@@ -137,9 +136,9 @@ export default async function Home() {
                     style={{ height: "auto" }}
                   />
 
-                  <div className="mt-6 grid gap-4 md:mt-8">
-                    <div className="rounded-2xl bg-white p-5 ring-1 ring-slate-100">
-                      <p className="text-sm font-semibold uppercase tracking-[0.18em] text-blue-700">
+                  <div className="mt-5 grid gap-3 md:mt-8">
+                    <div className="rounded-2xl bg-white p-4 ring-1 ring-slate-100">
+                      <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-blue-700">
                         Enfoque
                       </p>
                       <p className="mt-2 text-sm leading-7 text-slate-600">
@@ -148,8 +147,8 @@ export default async function Home() {
                       </p>
                     </div>
 
-                    <div className="rounded-2xl bg-white p-5 ring-1 ring-slate-100">
-                      <p className="text-sm font-semibold uppercase tracking-[0.18em] text-blue-700">
+                    <div className="rounded-2xl bg-white p-4 ring-1 ring-slate-100">
+                      <p className="text-[11px] font-semibold uppercase tracking-[0.18em] text-blue-700">
                         Clientes
                       </p>
                       <p className="mt-2 text-sm leading-7 text-slate-600">
@@ -160,16 +159,16 @@ export default async function Home() {
                   </div>
                 </div>
 
-                <div className="relative min-h-[320px] overflow-hidden rounded-[24px] ring-1 ring-slate-100 md:min-h-[420px] lg:min-h-[500px]">
+                <div className="relative min-h-[280px] overflow-hidden rounded-[24px] ring-1 ring-slate-100 md:min-h-[420px] lg:min-h-[500px]">
                   <Image
                     src="/hero-office.jpg"
-                    alt="Oficina profesional del estudio"
+                    alt="Oficina profesional del estudioß"
                     fill
                     sizes="(max-width: 1024px) 100vw, 50vw"
                     className="object-cover"
                     priority
                   />
-                  <div className="absolute inset-0 bg-[linear-gradient(to_top,rgba(15,23,42,0.20),rgba(15,23,42,0.02))]" />
+                  <div className="absolute inset-0 bg-[linear-gradient(to_top,rgba(15,23,42,0.18),rgba(15,23,42,0.02))]" />
                 </div>
               </div>
             </div>
@@ -177,40 +176,40 @@ export default async function Home() {
         </div>
       </section>
 
-      <section className="border-y border-slate-200 bg-slate-50 px-4 py-8 md:px-6">
-        <div className="mx-auto grid max-w-7xl gap-6 sm:grid-cols-2 xl:grid-cols-4">
+      <section className="border-y border-slate-200 bg-slate-50 px-4 py-7 md:px-6">
+        <div className="mx-auto grid max-w-7xl gap-5 sm:grid-cols-2 xl:grid-cols-4">
           <div>
-            <p className="text-xs uppercase tracking-[0.22em] text-slate-500 md:text-sm">
+            <p className="text-[11px] uppercase tracking-[0.20em] text-slate-500 md:text-sm">
               Posicionamiento
             </p>
-            <p className="mt-2 text-base font-semibold text-slate-900 md:text-lg">
+            <p className="mt-2 text-[15px] font-semibold text-slate-900 md:text-lg">
               Estudio contable integral
             </p>
           </div>
 
           <div>
-            <p className="text-xs uppercase tracking-[0.22em] text-slate-500 md:text-sm">
+            <p cclassName="text-[11px] uppercase tracking-[0.20em] text-slate-500 md:text-sm">
               Ubicación
             </p>
-            <p className="mt-2 text-base font-semibold text-slate-900 md:text-lg">
+            <p className="mt-2 text-[15px] font-semibold text-slate-900 md:text-lg">
               La Plata, Buenos Aires
             </p>
           </div>
 
           <div>
-            <p className="text-xs uppercase tracking-[0.22em] text-slate-500 md:text-sm">
+            <p className="text-[11px] uppercase tracking-[0.20em] text-slate-500 md:text-sm">
               Atención
             </p>
-            <p className="mt-2 text-base font-semibold text-slate-900 md:text-lg">
+            <p className="mt-2 text-[15px] font-semibold text-slate-900 md:text-lg">
               Personalizada y cercana
             </p>
           </div>
 
           <div>
-            <p className="text-xs uppercase tracking-[0.22em] text-slate-500 md:text-sm">
+            <p className="text-[11px] uppercase tracking-[0.20em] text-slate-500 md:text-sm">
               Foco
             </p>
-            <p className="mt-2 text-base font-semibold text-slate-900 md:text-lg">
+            <p className="mt-2 text-[15px] font-semibold text-slate-900 md:text-lg">
               Claridad, control y cumplimiento
             </p>
           </div>

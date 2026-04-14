@@ -216,7 +216,11 @@ export default async function Home() {
         </div>
       </section>
 
-      <section id="servicios" className="px-4 py-16 md:px-6 md:py-20">
+      <section
+        id="servicios"
+        scroll-mt-28
+        className="px-4 py-16 md:px-6 md:py-20"
+      >
         <div className="mx-auto max-w-5xl">
           <div className="max-w-xl">
             <p className="text-[11px] uppercase tracking-[0.2em] text-slate-500">
@@ -279,7 +283,7 @@ export default async function Home() {
 
       <section
         id="autoridad"
-        className="border-t border-slate-200 bg-slate-50 px-4 py-16 md:px-6 md:py-20"
+        className="scroll-mt-28 border-t border-slate-200 bg-slate-50 px-4 py-16 md:px-6 md:py-20"
       >
         <div className="mx-auto max-w-5xl">
           <div className="max-w-xl">
@@ -349,7 +353,10 @@ export default async function Home() {
         </div>
       </section>
 
-      <section id="clientes" className="px-4 py-16 md:px-6 md:py-20">
+      <section
+        id="clientes"
+        className="scroll-mt-28 px-4 py-16 md:px-6 md:py-20"
+      >
         <div className="mx-auto max-w-5xl">
           <div className="max-w-xl">
             <p className="text-[11px] uppercase tracking-[0.2em] text-slate-500">
@@ -406,7 +413,10 @@ export default async function Home() {
         </div>
       </section>
 
-      <section id="nosotras" className="bg-white px-4 py-20 md:px-6 md:py-24">
+      <section
+        id="nosotras"
+        className="scroll-mt-28 bg-white px-4 py-20 md:px-6 md:py-24"
+      >
         <div className="mx-auto grid max-w-7xl items-start gap-12 lg:grid-cols-2">
           <div>
             <span className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-700">
@@ -444,7 +454,7 @@ export default async function Home() {
 
       <section
         id="novedades"
-        className="bg-slate-50 px-4 py-20 md:px-6 md:py-24"
+        className="scroll-mt-28 bg-slate-50 px-4 py-20 md:px-6 md:py-24"
       >
         <div className="mx-auto max-w-7xl">
           <div className="mx-auto max-w-3xl text-center">
@@ -500,7 +510,7 @@ export default async function Home() {
 
       <section
         id="contacto"
-        className="relative overflow-hidden px-4 py-20 md:px-6 md:py-24"
+        className="scroll-mt-28 relative overflow-hidden px-4 py-20 md:px-6 md:py-24"
       >
         <div
           className="absolute inset-0 bg-cover bg-center"

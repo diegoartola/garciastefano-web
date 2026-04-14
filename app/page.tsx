@@ -59,12 +59,12 @@ export default async function Home() {
               Estudio contable integral · La Plata
             </span>
 
-            <h1 className="mt-5 text-3xl font-bold leading-tight tracking-tight text-slate-950 sm:text-4xl md:mt-6 md:text-5xl lg:text-6xl lg:leading-[1.05]">
+            <h1 className="mt-5 text-[2.2rem] font-bold leading-[1.12] tracking-tight text-slate-950 sm:text-4xl md:mt-6 md:text-5xl lg:text-6xl lg:leading-[1.05]">
               Respaldo contable e impositivo con nivel profesional y visión
               integral.
             </h1>
 
-            <p className="mx-auto mt-5 max-w-xl text-base leading-8 text-slate-600 sm:text-lg md:mt-6 md:max-w-2xl md:text-xl lg:mx-0">
+            <p className="mx-auto mt-5 max-w-xl text-[1.05rem] leading-8 text-slate-600 sm:text-lg md:mt-6 md:max-w-2xl md:text-xl lg:mx-0">
               Acompañamos a profesionales, pymes, responsables inscriptos y
               estructuras empresariales con asesoramiento contable, impositivo y
               administrativo orientado a la claridad, el control y la toma de

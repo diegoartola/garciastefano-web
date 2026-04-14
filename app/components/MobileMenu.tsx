@@ -73,37 +73,37 @@ export default function MobileMenu() {
           type="button"
           aria-label="Cerrar menú"
           onClick={handleClose}
-          className={`absolute inset-0 bg-black/55 backdrop-blur-sm transition-opacity duration-300 ${
+          className={`absolute inset-0 bg-slate-950/60 backdrop-blur-sm transition-opacity duration-300 ${
             open ? "opacity-100" : "opacity-0"
           }`}
         />
 
         <aside
           id="mobile-menu-panel"
-          className={`fixed inset-y-0 right-0 z-[110] flex w-[88%] max-w-[380px] flex-col bg-white shadow-[0_30px_80px_-20px_rgba(0,0,0,0.45)] transition-transform duration-300 ease-out ${
+          className={`fixed inset-y-0 right-0 z-[110] flex w-[86%] max-w-[360px] flex-col bg-white shadow-[0_30px_80px_-20px_rgba(0,0,0,0.45)] transition-transform duration-300 ease-out ${
             open ? "translate-x-0" : "translate-x-full"
           }`}
           style={{ height: "100dvh" }}
         >
-          <div className="shrink-0 border-b border-slate-200 bg-white px-5 pb-4 pt-5">
+          <div className="shrink-0 border-b border-slate-200 bg-white px-5 pb-5 pt-8">
             <div className="flex items-start justify-between gap-4">
               <div className="flex min-w-0 items-center gap-3">
-                <div className="flex h-12 w-12 items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
+                <div className="flex h-11 w-11 items-center justify-center overflow-hidden rounded-2xl border border-slate-200 bg-white shadow-sm">
                   <Image
                     src="/logo-garcia-stefano.png"
                     alt="García Stefano"
-                    width={48}
-                    height={48}
+                    width={44}
+                    height={44}
                     className="h-auto w-full object-contain p-1"
                     priority
                   />
                 </div>
 
                 <div className="min-w-0">
-                  <p className="truncate text-base font-semibold text-slate-950">
+                  <p className="truncate text-[17px] font-semibold text-slate-950">
                     García Stefano
                   </p>
-                  <p className="mt-0.5 text-xs uppercase tracking-[0.18em] text-slate-500">
+                  <p className="mt-0.5 text-[11px] uppercase tracking-[0.18em] text-slate-500">
                     Estudio contable integral
                   </p>
                 </div>
@@ -120,50 +120,44 @@ export default function MobileMenu() {
             </div>
           </div>
 
-          <div className="flex-1 overflow-y-auto bg-white px-5 py-6">
-            <nav className="space-y-2">
-              {links.map((link) => (
-                <a
-                  key={link.href}
-                  href={link.href}
-                  onClick={handleClose}
-                  className="flex items-center justify-between rounded-2xl px-4 py-3.5 text-[17px] font-medium text-slate-700 transition duration-300 hover:bg-slate-50 hover:text-blue-700"
-                >
-                  <span>{link.label}</span>
-                  <span className="text-slate-300">›</span>
-                </a>
-              ))}
+          <div className="flex-1 overflow-y-auto overscroll-contain bg-white px-5 py-4">
+            <nav>
+              <ul className="divide-y divide-slate-100">
+                {links.map((link) => (
+                  <li key={link.href}>
+                    <a
+                      href={link.href}
+                      onClick={handleClose}
+                      className="flex items-center justify-between py-5 text-[18px] font-medium text-slate-700 transition duration-300 hover:text-blue-700"
+                    >
+                      <span>{link.label}</span>
+                      <span className="text-slate-300">›</span>
+                    </a>
+                  </li>
+                ))}
+              </ul>
             </nav>
+          </div>
 
-            <div className="mt-8 rounded-3xl border border-slate-200 bg-slate-50 p-4">
-              <p className="text-xs font-semibold uppercase tracking-[0.18em] text-blue-700">
-                Contacto rápido
-              </p>
+          <div className="shrink-0 border-t border-slate-200 bg-white px-5 pb-6 pt-4">
+            <div className="space-y-3">
+              <a
+                href="https://wa.me/5492215035412?text=Hola,%20quiero%20hacer%20una%20consulta%20contable"
+                target="_blank"
+                rel="noopener noreferrer"
+                onClick={handleClose}
+                className="block rounded-2xl bg-blue-700 px-5 py-3.5 text-center font-semibold text-white shadow-lg shadow-blue-700/20 transition duration-300 hover:bg-blue-800"
+              >
+                Solicitar asesoramiento
+              </a>
 
-              <p className="mt-2 text-sm leading-6 text-slate-600">
-                Escribinos para recibir asesoramiento contable, impositivo y
-                administrativo.
-              </p>
-
-              <div className="mt-4 space-y-3">
-                <a
-                  href="https://wa.me/5492215035412?text=Hola,%20quiero%20hacer%20una%20consulta%20contable"
-                  target="_blank"
-                  rel="noopener noreferrer"
-                  onClick={handleClose}
-                  className="block rounded-2xl bg-blue-700 px-5 py-3.5 text-center font-semibold text-white shadow-lg shadow-blue-700/20 transition duration-300 hover:bg-blue-800"
-                >
-                  Solicitar asesoramiento
-                </a>
-
-                <a
-                  href="#contacto"
-                  onClick={handleClose}
-                  className="block rounded-2xl border border-slate-300 bg-white px-5 py-3.5 text-center font-semibold text-slate-700 transition duration-300 hover:border-blue-200 hover:bg-blue-50 hover:text-blue-700"
-                >
-                  Ir a contacto
-                </a>
-              </div>
+              <a
+                href="#contacto"
+                onClick={handleClose}
+                className="block rounded-2xl border border-slate-300 bg-white px-5 py-3.5 text-center font-semibold text-slate-700 transition duration-300 hover:border-blue-200 hover:bg-blue-50 hover:text-blue-700"
+              >
+                Ir a contacto
+              </a>
             </div>
           </div>
         </aside>

@@ -697,40 +697,37 @@ export default async function Home() {
         </div>
       </section>
 
-      <section className="bg-blue-700 px-4 py-16 text-white md:px-6 md:py-20">
-        <div className="mx-auto flex max-w-7xl flex-col items-start justify-between gap-8 lg:flex-row lg:items-center">
-          <div className="max-w-3xl">
-            <p className="text-sm font-semibold uppercase tracking-[0.22em] text-blue-100">
-              Asesoramiento profesional
-            </p>
-            <h2 className="mt-3 text-3xl font-bold md:text-4xl">
-              ¿Querés ordenar tu gestión contable e impositiva con respaldo
-              profesional?
-            </h2>
-            <p className="mt-4 text-base leading-8 text-blue-100 md:text-lg">
-              Contactanos para evaluar tu situación y acompañarte con una
-              propuesta clara, cercana y orientada a resultados.
-            </p>
+      <section className="px-4 py-20 md:px-6 md:py-24">
+        <div className="mx-auto max-w-4xl text-center">
+          <h2 className="text-3xl font-bold tracking-tight text-slate-950 md:text-4xl">
+            Ordená tu situación contable con respaldo profesional
+          </h2>
+
+          <p className="mx-auto mt-5 max-w-2xl text-base leading-8 text-slate-600 md:text-lg">
+            Si estás dando vueltas con monotributo, impuestos o Ingresos Brutos,
+            podemos ayudarte a resolverlo de forma clara y ordenada.
+          </p>
+
+          <div className="mt-6 flex flex-col items-center gap-2 text-sm text-slate-600">
+            <span>✔ Te explicamos todo sin vueltas</span>
+            <span>✔ Evaluamos tu caso en concreto</span>
+            <span>✔ Te proponemos la mejor opción</span>
           </div>
 
-          <div className="flex w-full flex-col gap-3 sm:w-auto sm:flex-row">
+          <div className="mt-10">
             <a
               href="https://wa.me/5492215035412?text=Hola,%20quiero%20hacer%20una%20consulta%20contable"
               target="_blank"
               rel="noopener noreferrer"
-              aria-label="WhatsApp"
-              className="fixed bottom-4 right-4 z-50 flex items-center rounded-full bg-green-500 px-5 py-3 text-sm font-semibold text-white shadow-[0_12px_30px_rgba(34,197,94,0.35)] transition duration-300 hover:scale-[1.04] hover:bg-green-600 md:bottom-6 md:right-6"
+              className="inline-block rounded-2xl bg-blue-700 px-8 py-4 text-lg font-semibold text-white shadow-lg shadow-blue-700/20 transition duration-300 hover:scale-[1.02] hover:bg-blue-800"
             >
-              WhatsApp
-            </a>
-
-            <a
-              href="#contacto"
-              className="rounded-xl border border-white/30 px-6 py-3 text-center font-semibold text-white transition duration-300 hover:bg-white/10"
-            >
-              Solicitar asesoramiento
+              Consultar ahora por WhatsApp
             </a>
           </div>
+
+          <p className="mt-4 text-sm text-slate-500">
+            Primera orientación sin compromiso.
+          </p>
         </div>
       </section>
 

@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
-import "./globals.css";
 import Script from "next/script";
+import "./globals.css";
+import GoogleAnalytics from "@/app/components/GoogleAnalytics";
 
 export const metadata: Metadata = {
   metadataBase: new URL("https://garciastefano.com.ar"),
@@ -67,6 +68,8 @@ export default function RootLayout({
   return (
     <html lang="es-AR">
       <body>
+        <GoogleAnalytics />
+
         <Script
           id="schema-local-business"
           type="application/ld+json"
@@ -90,7 +93,7 @@ export default function RootLayout({
               },
               areaServed: {
                 "@type": "Place",
-                name: "La Plata y alrededores",
+                name: "La Plata, Las Flores y atención online en Argentina",
               },
               openingHours: "Mo-Fr 09:00-18:00",
               sameAs: ["https://wa.me/5492215035412"],

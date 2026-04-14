@@ -2,6 +2,7 @@ import Image from "next/image";
 import { getOfficialUpdates } from "./lib/getOfficialUpdates";
 import ContactForm from "@/app/components/ContactForm";
 import MobileMenu from "@/app/components/MobileMenu";
+import TrackedWhatsAppLink from "@/app/components/TrackedWhatsAppLink";
 
 export default async function Home() {
   const officialUpdates = await getOfficialUpdates();
@@ -70,14 +71,15 @@ export default async function Home() {
             </p>
 
             <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center lg:justify-start">
-              <a
+              <TrackedWhatsAppLink
                 href="https://wa.me/5492215035412?text=Hola,%20quiero%20hacer%20una%20consulta%20contable"
                 target="_blank"
                 rel="noopener noreferrer"
+                source="hero_primary_cta"
                 className="rounded-2xl bg-blue-700 px-6 py-3.5 text-center font-semibold text-white shadow-lg shadow-blue-700/20 transition duration-300 hover:scale-[1.01] hover:bg-blue-800"
               >
                 Consultar por WhatsApp
-              </a>
+              </TrackedWhatsAppLink>
 
               <a
                 href="#servicios"
@@ -670,14 +672,15 @@ export default async function Home() {
               </div>
 
               <div className="mt-6 flex flex-col gap-3">
-                <a
+                <TrackedWhatsAppLink
                   href="https://wa.me/5492215035412?text=Hola,%20quiero%20hacer%20una%20consulta%20contable"
                   target="_blank"
                   rel="noopener noreferrer"
-                  className="rounded-2xl bg-blue-700 px-5 py-3 text-center font-semibold text-white transition hover:bg-blue-800"
+                  source="hero_primary_cta"
+                  className="rounded-2xl bg-blue-700 px-6 py-3.5 text-center font-semibold text-white shadow-lg shadow-blue-700/20 transition duration-300 hover:scale-[1.01] hover:bg-blue-800"
                 >
-                  Escribinos por WhatsApp
-                </a>
+                  Consultar por WhatsApp
+                </TrackedWhatsAppLink>
 
                 <a
                   href="mailto:info@garciastefano.com.ar"
@@ -715,14 +718,15 @@ export default async function Home() {
           </div>
 
           <div className="mt-10">
-            <a
+            <TrackedWhatsAppLink
               href="https://wa.me/5492215035412?text=Hola,%20quiero%20hacer%20una%20consulta%20contable"
               target="_blank"
               rel="noopener noreferrer"
-              className="inline-block rounded-2xl bg-blue-700 px-8 py-4 text-lg font-semibold text-white shadow-lg shadow-blue-700/20 transition duration-300 hover:scale-[1.02] hover:bg-blue-800"
+              source="hero_primary_cta"
+              className="rounded-2xl bg-blue-700 px-6 py-3.5 text-center font-semibold text-white shadow-lg shadow-blue-700/20 transition duration-300 hover:scale-[1.01] hover:bg-blue-800"
             >
-              Consultar ahora por WhatsApp
-            </a>
+              Consultar por WhatsApp
+            </TrackedWhatsAppLink>
           </div>
 
           <p className="mt-4 text-sm text-slate-500">
@@ -743,14 +747,15 @@ export default async function Home() {
           </p>
 
           <div className="mt-8 flex flex-col gap-3 sm:flex-row sm:justify-center">
-            <a
+            <TrackedWhatsAppLink
               href="https://wa.me/5492215035412?text=Hola,%20quiero%20hacer%20una%20consulta%20contable"
               target="_blank"
               rel="noopener noreferrer"
-              className="rounded-2xl bg-blue-700 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-700/20 transition hover:bg-blue-800"
+              source="hero_primary_cta"
+              className="rounded-2xl bg-blue-700 px-6 py-3.5 text-center font-semibold text-white shadow-lg shadow-blue-700/20 transition duration-300 hover:scale-[1.01] hover:bg-blue-800"
             >
-              Solicitar asesoramiento
-            </a>
+              Consultar por WhatsApp
+            </TrackedWhatsAppLink>
 
             <a
               href="#contacto"
@@ -776,14 +781,15 @@ export default async function Home() {
             >
               info@garciastefano.com.ar
             </a>
-            <a
+            <TrackedWhatsAppLink
               href="https://wa.me/5492215035412?text=Hola,%20quiero%20hacer%20una%20consulta%20contable"
               target="_blank"
               rel="noopener noreferrer"
-              className="transition hover:text-blue-700"
+              source="hero_primary_cta"
+              className="rounded-2xl bg-blue-700 px-6 py-3.5 text-center font-semibold text-white shadow-lg shadow-blue-700/20 transition duration-300 hover:scale-[1.01] hover:bg-blue-800"
             >
-              WhatsApp
-            </a>
+              Consultar por WhatsApp
+            </TrackedWhatsAppLink>
             <a href="#inicio" className="transition hover:text-blue-700">
               Volver arriba
             </a>
@@ -791,15 +797,16 @@ export default async function Home() {
         </div>
       </footer>
 
-      <a
+      <TrackedWhatsAppLink
         href="https://wa.me/5492215035412?text=Hola,%20quiero%20hacer%20una%20consulta%20contable"
         target="_blank"
         rel="noopener noreferrer"
         aria-label="WhatsApp"
-        className="fixed bottom-4 right-4 z-50 hidden rounded-full bg-green-500 px-6 py-3 text-sm font-semibold text-white shadow-[0_12px_30px_rgba(34,197,94,0.35)] transition duration-300 hover:scale-[1.04] hover:bg-green-600 sm:flex md:bottom-6 md:right-6"
+        source="floating_whatsapp"
+        className="fixed bottom-4 right-4 z-50 flex items-center rounded-full bg-green-500 px-5 py-3 text-sm font-semibold text-white shadow-[0_12px_30px_rgba(34,197,94,0.35)] transition duration-300 hover:scale-[1.04] hover:bg-green-600 md:bottom-6 md:right-6"
       >
         WhatsApp
-      </a>
+      </TrackedWhatsAppLink>
     </main>
   );
 }

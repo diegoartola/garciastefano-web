@@ -73,7 +73,7 @@ export default function MobileMenu() {
           type="button"
           aria-label="Cerrar menú"
           onClick={handleClose}
-          className={`absolute inset-0 bg-black/60 backdrop-blur-sm transition-opacity duration-300 ${
+          className={`absolute inset-0 bg-slate-950/55 backdrop-blur-md transition-opacity duration-300 ${
             open ? "opacity-100" : "opacity-0"
           }`}
         />

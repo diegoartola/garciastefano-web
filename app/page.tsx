@@ -447,18 +447,19 @@ export default async function Home() {
               prácticas y confiables, generando claridad en la gestión y un
               vínculo profesional sostenido en el tiempo.
             </p>
+
+            <p className="pt-2 text-sm text-slate-500">
+              También brindamos asesoramiento contable en
+              <a
+                href="/estudio-contable-las-flores"
+                className="ml-1 font-medium text-blue-600 hover:underline"
+              >
+                Las Flores (Buenos Aires)
+              </a>
+              .
+            </p>
           </div>
         </div>
-        <p className="mt-6 text-sm text-slate-500">
-          También brindamos asesoramiento contable en
-          <a
-            href="/estudio-contable-las-flores"
-            className="text-blue-600 ml-1 hover:underline font-medium"
-          >
-            Las Flores (Buenos Aires)
-          </a>
-          .
-        </p>
       </section>
 
       <section

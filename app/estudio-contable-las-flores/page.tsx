@@ -98,6 +98,27 @@ export default function LasFloresPage() {
           </ul>
         </section>
 
+        <section className="mt-12">
+          <div className="rounded-2xl border border-slate-200 bg-white p-6">
+            <h2 className="text-xl font-semibold text-slate-900">
+              Atención con discreción y confidencialidad
+            </h2>
+
+            <p className="mt-3 text-sm leading-6 text-slate-600">
+              Sabemos que en muchos casos la información contable, impositiva y
+              económica requiere un manejo reservado. Por eso trabajamos con un
+              enfoque basado en la discreción, la confidencialidad y el respeto
+              por cada situación particular.
+            </p>
+
+            <p className="mt-3 text-sm leading-6 text-slate-600">
+              Cada consulta se trata de forma profesional y privada, generando
+              un espacio de confianza donde podés plantear tu situación con
+              tranquilidad.
+            </p>
+          </div>
+        </section>
+
         <section id="servicios" className="mt-12">
           <h2 className="text-xl font-semibold text-slate-900">
             Servicios contables e impositivos en Las Flores
@@ -163,7 +184,39 @@ export default function LasFloresPage() {
             </div>
           </div>
         </section>
+        <section className="mt-12">
+          <h2 className="text-xl font-semibold text-slate-900">
+            Contabilidad y balances para empresas
+          </h2>
 
+          <p className="mt-3 text-sm leading-6 text-slate-600">
+            También brindamos servicios contables orientados a empresas que
+            requieren información clara y ordenada para la toma de decisiones.
+          </p>
+
+          <ul className="mt-4 space-y-2 text-sm leading-6 text-slate-600">
+            <li>✔ Preparación de balances</li>
+            <li>✔ Estados contables</li>
+            <li>✔ Análisis de información financiera</li>
+            <li>✔ Organización contable integral</li>
+          </ul>
+
+          <p className="mt-4 text-sm leading-6 text-slate-600">
+            Este tipo de servicio está orientado a clientes que necesitan un
+            mayor nivel de seguimiento, orden y respaldo profesional.
+          </p>
+
+          <div className="mt-6">
+            <a
+              href="https://wa.me/5492215035412?text=Hola,%20quiero%20asesoramiento%20contable%20para%20empresa"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block rounded-2xl bg-blue-700 px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-800"
+            >
+              Consultar por balances
+            </a>
+          </div>
+        </section>
         <section className="mt-12">
           <h2 className="text-xl font-semibold text-slate-900">
             ¿Por qué elegirnos?

@@ -1,91 +1,266 @@
-export const metadata = {
-  title: "Estudio contable en Las Flores | García Stefano",
+import type { Metadata } from "next";
+
+export const metadata: Metadata = {
+  title: "Estudio contable en Las Flores | Asesoramiento integral",
   description:
-    "Estudio contable en Las Flores. Asesoramiento impositivo, monotributo, ingresos brutos y gestión contable para profesionales y pymes.",
+    "Estudio contable en Las Flores para profesionales, comercios y pymes. Monotributo, ARBA, impuestos y asesoramiento contable con atención clara y personalizada.",
 };
 
 export default function LasFloresPage() {
   return (
-    <main className="px-6 py-16 max-w-5xl mx-auto">
-      {/* HERO */}
-      <section className="mb-12">
-        <p className="text-[12px] uppercase tracking-[0.25em] text-blue-600 font-medium">
-          LAS FLORES · ASESORAMIENTO CONTABLE
+    <main className="px-4 py-16 md:px-6 md:py-20">
+      <div className="mx-auto max-w-4xl">
+        <p className="text-[11px] uppercase tracking-[0.2em] text-blue-700">
+          Las Flores · Estudio contable
         </p>
 
-        <h1 className="mt-4 text-3xl md:text-4xl font-semibold text-slate-900">
-          Estudio contable en Las Flores con atención personalizada
+        <h1 className="mt-3 text-3xl font-bold tracking-tight text-slate-950 md:text-4xl">
+          Estudio contable en Las Flores con atención clara, cercana y
+          profesional
         </h1>
 
-        <p className="mt-4 text-slate-600 text-base md:text-lg max-w-2xl">
-          Acompañamos a profesionales, comercios y pymes de Las Flores en su
-          gestión contable e impositiva, con un enfoque claro, ordenado y
-          orientado a resultados.
+        <p className="mt-4 max-w-3xl text-base leading-7 text-slate-600">
+          En García Stefano acompañamos a profesionales, comercios y pymes de
+          Las Flores con asesoramiento contable, impositivo y administrativo.
+          Trabajamos con una mirada práctica y ordenada para ayudarte a resolver
+          tu situación fiscal sin vueltas.
         </p>
 
-        <div className="mt-6">
+        <div className="mt-6 flex flex-col gap-3 sm:flex-row">
           <a
-            href="https://wa.me/5492215035412?text=Hola%20quiero%20asesoramiento%20contable"
-            className="inline-block rounded-2xl bg-blue-700 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-700/20 transition hover:bg-blue-800"
+            href="https://wa.me/5492215035412?text=Hola,%20quiero%20asesoramiento%20contable%20en%20Las%20Flores"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="inline-block rounded-2xl bg-blue-700 px-6 py-3 text-center text-sm font-semibold text-white shadow-lg shadow-blue-700/20 transition hover:bg-blue-800"
           >
-            Consultar por WhatsApp
+            Consulta gratis por WhatsApp
+          </a>
+
+          <a
+            href="#servicios"
+            className="inline-block rounded-2xl border border-slate-300 bg-white px-6 py-3 text-center text-sm font-semibold text-slate-700 transition hover:border-blue-200 hover:bg-blue-50 hover:text-blue-700"
+          >
+            Ver servicios
           </a>
         </div>
-      </section>
 
-      {/* SERVICIOS */}
-      <section className="mb-12">
-        <h2 className="text-xl font-semibold text-slate-900 mb-4">
-          Servicios contables en Las Flores
-        </h2>
-
-        <ul className="space-y-4 text-slate-600">
-          <li>✔ Inscripción y gestión de monotributo</li>
-          <li>✔ Asesoramiento impositivo integral</li>
-          <li>✔ Ingresos Brutos ARBA</li>
-          <li>✔ Liquidación de impuestos</li>
-          <li>✔ Organización administrativa</li>
-        </ul>
-      </section>
-
-      {/* DIFERENCIAL */}
-      <section className="mb-12">
-        <h2 className="text-xl font-semibold text-slate-900 mb-4">
-          ¿Por qué elegirnos?
-        </h2>
-
-        <div className="space-y-4 text-slate-600">
-          <p>
-            Trabajamos con una mirada integral, priorizando la claridad, la
-            cercanía y el acompañamiento continuo.
-          </p>
-
-          <p>
-            Nos enfocamos en que cada cliente entienda su situación y pueda
-            tomar decisiones con respaldo profesional.
-          </p>
-        </div>
-      </section>
-
-      {/* CTA FINAL */}
-      <section className="mt-16 text-center">
-        <h3 className="text-2xl font-semibold text-slate-900">
-          ¿Necesitás asesoramiento contable en Las Flores?
-        </h3>
-
-        <p className="mt-3 text-slate-600">
-          Escribinos y evaluamos tu caso sin compromiso.
+        <p className="mt-3 text-sm text-slate-500">
+          Atención en Las Flores, Provincia de Buenos Aires y modalidad online.
         </p>
 
-        <div className="mt-6">
-          <a
-            href="https://wa.me/5492215035412?text=Hola%20quiero%20asesoramiento%20contable"
-            className="inline-block rounded-2xl bg-blue-700 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-700/20 transition hover:bg-blue-800"
-          >
-            Solicitar asesoramiento
-          </a>
+        <div className="mt-8 grid gap-3 sm:grid-cols-3">
+          <div className="rounded-2xl border border-slate-200 bg-white px-5 py-4 shadow-sm">
+            <p className="text-base font-semibold text-slate-900">
+              Atención personalizada
+            </p>
+            <p className="mt-1 text-sm leading-6 text-slate-600">
+              Cada consulta se analiza de forma concreta y con seguimiento real.
+            </p>
+          </div>
+
+          <div className="rounded-2xl border border-slate-200 bg-white px-5 py-4 shadow-sm">
+            <p className="text-base font-semibold text-slate-900">
+              Respuesta clara
+            </p>
+            <p className="mt-1 text-sm leading-6 text-slate-600">
+              Explicamos lo importante sin complejidad innecesaria.
+            </p>
+          </div>
+
+          <div className="rounded-2xl border border-slate-200 bg-white px-5 py-4 shadow-sm">
+            <p className="text-base font-semibold text-slate-900">
+              Enfoque práctico
+            </p>
+            <p className="mt-1 text-sm leading-6 text-slate-600">
+              Buscamos ordenar, resolver y acompañar tu gestión.
+            </p>
+          </div>
         </div>
-      </section>
+
+        <section className="mt-12">
+          <h2 className="text-xl font-semibold text-slate-900">
+            ¿Qué podés resolver con nuestro estudio contable en Las Flores?
+          </h2>
+
+          <p className="mt-3 text-sm leading-6 text-slate-600">
+            Brindamos asesoramiento para quienes necesitan resolver temas
+            impositivos, ordenar su situación fiscal o mejorar su organización
+            contable y administrativa.
+          </p>
+
+          <ul className="mt-4 space-y-2 text-sm leading-6 text-slate-600">
+            <li>✔ Alta y gestión de monotributo</li>
+            <li>✔ Recategorización y seguimiento mensual</li>
+            <li>✔ Ingresos Brutos ARBA</li>
+            <li>✔ Liquidación de impuestos</li>
+            <li>✔ Asesoramiento para responsables inscriptos</li>
+            <li>✔ Organización administrativa para profesionales y pymes</li>
+          </ul>
+        </section>
+
+        <section id="servicios" className="mt-12">
+          <h2 className="text-xl font-semibold text-slate-900">
+            Servicios contables e impositivos en Las Flores
+          </h2>
+
+          <div className="mt-6 grid gap-4 sm:grid-cols-2">
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+              <h3 className="text-base font-semibold text-slate-900">
+                Monotributo
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                Alta, recategorización, seguimiento y asesoramiento para evitar
+                errores con AFIP y ARBA.
+              </p>
+              <a
+                href="/monotributo-argentina"
+                className="mt-3 inline-block text-sm font-semibold text-blue-700 hover:underline"
+              >
+                Ver guía de monotributo →
+              </a>
+            </div>
+
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+              <h3 className="text-base font-semibold text-slate-900">
+                Ingresos Brutos ARBA
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                Inscripción, regularización y acompañamiento para actividades en
+                Provincia de Buenos Aires.
+              </p>
+              <a
+                href="/ingresos-brutos-arba"
+                className="mt-3 inline-block text-sm font-semibold text-blue-700 hover:underline"
+              >
+                Ver guía de ARBA →
+              </a>
+            </div>
+
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+              <h3 className="text-base font-semibold text-slate-900">
+                Responsable inscripto
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                Evaluación de régimen, obligaciones fiscales y acompañamiento
+                para una gestión ordenada.
+              </p>
+              <a
+                href="/responsable-inscripto-vs-monotributo"
+                className="mt-3 inline-block text-sm font-semibold text-blue-700 hover:underline"
+              >
+                Ver guía de responsable inscripto →
+              </a>
+            </div>
+
+            <div className="rounded-2xl border border-slate-200 bg-slate-50 p-5">
+              <h3 className="text-base font-semibold text-slate-900">
+                Asesoramiento integral
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                Acompañamiento contable, impositivo y administrativo para
+                profesionales, comercios y pymes.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <section className="mt-12">
+          <h2 className="text-xl font-semibold text-slate-900">
+            ¿Por qué elegirnos?
+          </h2>
+
+          <div className="mt-4 space-y-4 text-sm leading-6 text-slate-600">
+            <p>
+              Trabajamos con una mirada integral, priorizando la claridad, la
+              cercanía y el acompañamiento continuo. Nuestro objetivo es que
+              cada cliente entienda su situación y pueda tomar decisiones con
+              respaldo profesional.
+            </p>
+
+            <p>
+              Sabemos que en muchos casos no solo importa resolver la parte
+              fiscal, sino también contar con un espacio de atención ordenado,
+              cómodo y confiable. Por eso ofrecemos un trato personalizado y una
+              modalidad de trabajo flexible, tanto presencial como online.
+            </p>
+          </div>
+        </section>
+
+        <section className="mt-12">
+          <h2 className="text-xl font-semibold text-slate-900">
+            Preguntas frecuentes
+          </h2>
+
+          <div className="mt-5 space-y-6">
+            <div>
+              <h3 className="text-base font-semibold text-slate-900">
+                ¿Atienden solo en Las Flores?
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                No. Además de trabajar con clientes de Las Flores, también
+                brindamos atención en otras localidades de la Provincia de
+                Buenos Aires y en modalidad online.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-base font-semibold text-slate-900">
+                ¿Puedo consultar por WhatsApp?
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                Sí. Es una de las formas más rápidas de iniciar el contacto y
+                contarnos tu situación para orientarte.
+              </p>
+            </div>
+
+            <div>
+              <h3 className="text-base font-semibold text-slate-900">
+                ¿Trabajan con monotributistas y pymes?
+              </h3>
+              <p className="mt-2 text-sm leading-6 text-slate-600">
+                Sí. Asesoramos a monotributistas, responsables inscriptos,
+                profesionales, comercios y pequeñas empresas.
+              </p>
+            </div>
+          </div>
+        </section>
+
+        <div className="mt-14 rounded-2xl border border-slate-200 bg-slate-50 p-8 text-center">
+          <h2 className="text-2xl font-semibold text-slate-900">
+            ¿Necesitás asesoramiento contable en Las Flores?
+          </h2>
+
+          <p className="mt-3 text-sm leading-6 text-slate-600">
+            Escribinos y te damos una primera orientación para entender tu caso
+            y definir la mejor forma de avanzar.
+          </p>
+
+          <a
+            href="https://wa.me/5492215035412?text=Hola,%20quiero%20asesoramiento%20contable%20en%20Las%20Flores"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="mt-6 inline-block rounded-2xl bg-blue-700 px-6 py-3 text-sm font-semibold text-white shadow-lg shadow-blue-700/20 transition hover:bg-blue-800"
+          >
+            Hablar por WhatsApp ahora
+          </a>
+
+          <p className="mt-3 text-sm text-slate-500">
+            Primera orientación sin compromiso.
+          </p>
+        </div>
+
+        <p className="mt-6 text-sm text-slate-500">
+          Si también buscás atención en otra localidad, podés ver nuestra página
+          de{" "}
+          <a
+            href="/estudio-contable-la-plata"
+            className="font-medium text-blue-600 hover:underline"
+          >
+            estudio contable en La Plata
+          </a>
+          .
+        </p>
+      </div>
     </main>
   );
 }

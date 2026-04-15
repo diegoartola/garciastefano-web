@@ -172,6 +172,25 @@ export default function Page() {
             Hablar por WhatsApp ahora
           </a>
         </div>
+        <section className="mt-8">
+          <p className="text-sm text-slate-500">
+            También podés leer nuestras guías sobre{" "}
+            <a
+              href="/ingresos-brutos-arba"
+              className="font-medium text-blue-600 hover:underline"
+            >
+              Ingresos Brutos ARBA
+            </a>{" "}
+            y{" "}
+            <a
+              href="/estudio-contable-la-plata"
+              className="font-medium text-blue-600 hover:underline"
+            >
+              estudio contable en La Plata
+            </a>
+            .
+          </p>
+        </section>
 
         <p className="mt-6 text-sm text-slate-500">
           También brindamos asesoramiento contable en

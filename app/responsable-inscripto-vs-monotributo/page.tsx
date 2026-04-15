@@ -130,13 +130,20 @@ export default function Page() {
               className="font-medium text-blue-600 hover:underline"
             >
               monotributo en Argentina
-            </a>{" "}
-            y{" "}
+            </a>
+            ,{" "}
             <a
               href="/ingresos-brutos-arba"
               className="font-medium text-blue-600 hover:underline"
             >
               Ingresos Brutos ARBA
+            </a>{" "}
+            y nuestra página de{" "}
+            <a
+              href="/estudio-contable-la-plata"
+              className="font-medium text-blue-600 hover:underline"
+            >
+              estudio contable en La Plata
             </a>
             .
           </p>

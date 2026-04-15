@@ -126,12 +126,27 @@ export default function Page() {
         {/* LINK INTERNO */}
         <section className="mt-8">
           <p className="text-sm text-slate-500">
-            Si todavía no estás inscripto, podés ver nuestra guía sobre{" "}
+            También podés ver nuestras guías sobre{" "}
             <a
               href="/monotributo-argentina"
               className="font-medium text-blue-600 hover:underline"
             >
-              monotributo en Argentina
+              monotributo
+            </a>{" "}
+            y{" "}
+            <a
+              href="/responsable-inscripto-vs-monotributo"
+              className="font-medium text-blue-600 hover:underline"
+            >
+              responsable inscripto vs monotributo
+            </a>
+            . Si buscás atención profesional, también podés visitar nuestra
+            página de{" "}
+            <a
+              href="/estudio-contable-la-plata"
+              className="font-medium text-blue-600 hover:underline"
+            >
+              estudio contable en La Plata
             </a>
             .
           </p>

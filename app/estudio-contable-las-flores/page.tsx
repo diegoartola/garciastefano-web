@@ -260,6 +260,32 @@ export default function LasFloresPage() {
           </a>
           .
         </p>
+        <section className="mt-12">
+          <p className="text-sm text-slate-500">
+            Si querés profundizar, también podés leer nuestras guías sobre{" "}
+            <a
+              href="/monotributo-argentina"
+              className="font-medium text-blue-600 hover:underline"
+            >
+              monotributo
+            </a>
+            ,{" "}
+            <a
+              href="/ingresos-brutos-arba"
+              className="font-medium text-blue-600 hover:underline"
+            >
+              Ingresos Brutos ARBA
+            </a>{" "}
+            y{" "}
+            <a
+              href="/responsable-inscripto-vs-monotributo"
+              className="font-medium text-blue-600 hover:underline"
+            >
+              responsable inscripto vs monotributo
+            </a>
+            .
+          </p>
+        </section>
       </div>
     </main>
   );

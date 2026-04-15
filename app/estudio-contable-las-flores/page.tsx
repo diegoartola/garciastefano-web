@@ -76,28 +76,6 @@ export default function LasFloresPage() {
             </p>
           </div>
         </div>
-
-        <section className="mt-12">
-          <h2 className="text-xl font-semibold text-slate-900">
-            ¿Qué podés resolver con nuestro estudio contable en Las Flores?
-          </h2>
-
-          <p className="mt-3 text-sm leading-6 text-slate-600">
-            Brindamos asesoramiento para quienes necesitan resolver temas
-            impositivos, ordenar su situación fiscal o mejorar su organización
-            contable y administrativa.
-          </p>
-
-          <ul className="mt-4 space-y-2 text-sm leading-6 text-slate-600">
-            <li>✔ Alta y gestión de monotributo</li>
-            <li>✔ Recategorización y seguimiento mensual</li>
-            <li>✔ Ingresos Brutos ARBA</li>
-            <li>✔ Liquidación de impuestos</li>
-            <li>✔ Asesoramiento para responsables inscriptos</li>
-            <li>✔ Organización administrativa para profesionales y pymes</li>
-          </ul>
-        </section>
-
         <section className="mt-12">
           <div className="rounded-2xl border border-slate-200 bg-white p-6">
             <h2 className="text-xl font-semibold text-slate-900">
@@ -117,6 +95,26 @@ export default function LasFloresPage() {
               tranquilidad.
             </p>
           </div>
+        </section>
+        <section className="mt-12">
+          <h2 className="text-xl font-semibold text-slate-900">
+            ¿Qué podés resolver con nuestro estudio contable en Las Flores?
+          </h2>
+
+          <p className="mt-3 text-sm leading-6 text-slate-600">
+            Brindamos asesoramiento para quienes necesitan resolver temas
+            impositivos, ordenar su situación fiscal o mejorar su organización
+            contable y administrativa.
+          </p>
+
+          <ul className="mt-4 space-y-2 text-sm leading-6 text-slate-600">
+            <li>✔ Alta y gestión de monotributo</li>
+            <li>✔ Recategorización y seguimiento mensual</li>
+            <li>✔ Ingresos Brutos ARBA</li>
+            <li>✔ Liquidación de impuestos</li>
+            <li>✔ Asesoramiento para responsables inscriptos</li>
+            <li>✔ Organización administrativa para profesionales y pymes</li>
+          </ul>
         </section>
 
         <section id="servicios" className="mt-12">
@@ -184,39 +182,7 @@ export default function LasFloresPage() {
             </div>
           </div>
         </section>
-        <section className="mt-12">
-          <h2 className="text-xl font-semibold text-slate-900">
-            Contabilidad y balances para empresas
-          </h2>
 
-          <p className="mt-3 text-sm leading-6 text-slate-600">
-            También brindamos servicios contables orientados a empresas que
-            requieren información clara y ordenada para la toma de decisiones.
-          </p>
-
-          <ul className="mt-4 space-y-2 text-sm leading-6 text-slate-600">
-            <li>✔ Preparación de balances</li>
-            <li>✔ Estados contables</li>
-            <li>✔ Análisis de información financiera</li>
-            <li>✔ Organización contable integral</li>
-          </ul>
-
-          <p className="mt-4 text-sm leading-6 text-slate-600">
-            Este tipo de servicio está orientado a clientes que necesitan un
-            mayor nivel de seguimiento, orden y respaldo profesional.
-          </p>
-
-          <div className="mt-6">
-            <a
-              href="https://wa.me/5492215035412?text=Hola,%20quiero%20asesoramiento%20contable%20para%20empresa"
-              target="_blank"
-              rel="noopener noreferrer"
-              className="inline-block rounded-2xl bg-blue-700 px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-800"
-            >
-              Consultar por balances
-            </a>
-          </div>
-        </section>
         <section className="mt-12">
           <h2 className="text-xl font-semibold text-slate-900">
             ¿Por qué elegirnos?

@@ -75,26 +75,6 @@ export default function Page() {
             </p>
           </div>
         </div>
-
-        <section className="mt-12">
-          <h2 className="text-xl font-semibold text-slate-900">
-            ¿Qué podés resolver con nuestro estudio contable en La Plata?
-          </h2>
-
-          <p className="mt-3 text-sm leading-6 text-slate-600">
-            Brindamos asesoramiento para quienes necesitan resolver su situación
-            impositiva o mejorar su organización contable y administrativa.
-          </p>
-
-          <ul className="mt-4 space-y-2 text-sm leading-6 text-slate-600">
-            <li>✔ Alta y gestión de monotributo</li>
-            <li>✔ Recategorización y seguimiento mensual</li>
-            <li>✔ Ingresos Brutos ARBA</li>
-            <li>✔ Liquidación de impuestos</li>
-            <li>✔ Asesoramiento para responsables inscriptos</li>
-            <li>✔ Organización administrativa para profesionales y pymes</li>
-          </ul>
-        </section>
         <section className="mt-12">
           <div className="rounded-2xl border border-slate-200 bg-white p-6">
             <h2 className="text-xl font-semibold text-slate-900">
@@ -114,6 +94,25 @@ export default function Page() {
               tranquilidad.
             </p>
           </div>
+        </section>
+        <section className="mt-12">
+          <h2 className="text-xl font-semibold text-slate-900">
+            ¿Qué podés resolver con nuestro estudio contable en La Plata?
+          </h2>
+
+          <p className="mt-3 text-sm leading-6 text-slate-600">
+            Brindamos asesoramiento para quienes necesitan resolver su situación
+            impositiva o mejorar su organización contable y administrativa.
+          </p>
+
+          <ul className="mt-4 space-y-2 text-sm leading-6 text-slate-600">
+            <li>✔ Alta y gestión de monotributo</li>
+            <li>✔ Recategorización y seguimiento mensual</li>
+            <li>✔ Ingresos Brutos ARBA</li>
+            <li>✔ Liquidación de impuestos</li>
+            <li>✔ Asesoramiento para responsables inscriptos</li>
+            <li>✔ Organización administrativa para profesionales y pymes</li>
+          </ul>
         </section>
 
         <section id="servicios" className="mt-12">

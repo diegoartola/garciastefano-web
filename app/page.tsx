@@ -469,6 +469,67 @@ export default async function Home() {
         </div>
       </section>
 
+      <section className="max-w-5xl mx-auto py-16">
+        <p className="text-sm uppercase tracking-widest text-blue-600 font-semibold">
+          Servicios destacados
+        </p>
+
+        <h2 className="mt-4 text-3xl font-semibold text-slate-900">
+          Soluciones según tu situación
+        </h2>
+
+        <div className="mt-8 grid gap-6 md:grid-cols-3">
+          {/* Monotributo */}
+          <div className="rounded-2xl border border-slate-200 bg-white p-6">
+            <h3 className="text-lg font-semibold text-slate-900">
+              Monotributo
+            </h3>
+            <p className="mt-2 text-sm text-slate-600">
+              Alta, recategorización y gestión mensual sin complicaciones.
+            </p>
+            <a
+              href="/monotributo-argentina"
+              className="mt-4 inline-block text-sm font-semibold text-blue-700 hover:underline"
+            >
+              Ver más →
+            </a>
+          </div>
+
+          {/* ARBA */}
+          <div className="rounded-2xl border border-slate-200 bg-white p-6">
+            <h3 className="text-lg font-semibold text-slate-900">
+              Ingresos Brutos (ARBA)
+            </h3>
+            <p className="mt-2 text-sm text-slate-600">
+              Inscripción y asesoramiento en Provincia de Buenos Aires.
+            </p>
+            <a
+              href="/ingresos-brutos-arba"
+              className="mt-4 inline-block text-sm font-semibold text-blue-700 hover:underline"
+            >
+              Ver más →
+            </a>
+          </div>
+
+          {/* BALANCES 💣 */}
+          <div className="rounded-2xl border border-slate-200 bg-white p-6">
+            <h3 className="text-lg font-semibold text-slate-900">
+              Empresas y balances
+            </h3>
+            <p className="mt-2 text-sm text-slate-600">
+              Estados contables, organización administrativa y respaldo
+              profesional.
+            </p>
+            <a
+              href="/balances-empresas"
+              className="mt-4 inline-block text-sm font-semibold text-blue-700 hover:underline"
+            >
+              Ver servicio →
+            </a>
+          </div>
+        </div>
+      </section>
+
       <section
         id="novedades"
         className="scroll-mt-28 bg-slate-50 px-4 py-20 md:px-6 md:py-24"

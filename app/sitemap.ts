@@ -26,5 +26,13 @@ export default function sitemap(): MetadataRoute.Sitemap {
       url: "https://garciastefano.com.ar/estudio-contable-la-plata",
       lastModified: new Date(),
     },
+    {
+      url: "https://garciastefano.com.ar/alta-monotributo",
+      lastModified: new Date(),
+    },
+    {
+      url: "https://garciastefano.com.ar/recategorizacion-monotributo",
+      lastModified: new Date(),
+    },
   ];
 }

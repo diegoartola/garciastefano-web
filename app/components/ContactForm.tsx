@@ -2,6 +2,12 @@
 
 import { useState } from "react";
 
+declare global {
+  interface Window {
+    gtag?: (...args: any[]) => void;
+  }
+}
+
 export default function ContactForm() {
   const [status, setStatus] = useState<"idle" | "ok" | "error" | "loading">(
     "idle",
@@ -21,6 +27,22 @@ export default function ContactForm() {
       });
 
       if (res.ok) {
+        if (window.gtag) {
+          window.gtag("event", "generate_lead", {
+            event_category: "form",
+            event_label: "main_contact_form",
+            page_path: window.location.pathname,
+            debug_mode: true,
+          });
+
+          window.gtag("event", "contact_form_submit", {
+            event_category: "form",
+            event_label: "main_contact_form",
+            page_path: window.location.pathname,
+            debug_mode: true,
+          });
+        }
+
         setStatus("ok");
         form.reset();
       } else {

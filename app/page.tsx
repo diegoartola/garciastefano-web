@@ -507,7 +507,48 @@ export default async function Home() {
               Leer guía completa →
             </a>
           </div>
+          <div className="rounded-2xl border border-slate-200 bg-white p-5">
+            <p className="text-[11px] uppercase tracking-[0.2em] text-slate-500">
+              Guía práctica
+            </p>
 
+            <h3 className="mt-2 text-lg font-semibold text-slate-900">
+              Alta de monotributo: cómo inscribirse paso a paso
+            </h3>
+
+            <p className="mt-2 text-sm text-slate-600">
+              Todo lo que necesitás saber para darte de alta en AFIP
+              correctamente y evitar errores desde el inicio.
+            </p>
+
+            <a
+              href="/monotributo-alta"
+              className="mt-3 inline-block text-sm font-semibold text-blue-700 hover:underline"
+            >
+              Leer guía completa →
+            </a>
+          </div>
+          <div className="rounded-2xl border border-slate-200 bg-white p-5">
+            <p className="text-[11px] uppercase tracking-[0.2em] text-slate-500">
+              Guía práctica
+            </p>
+
+            <h3 className="mt-2 text-lg font-semibold text-slate-900">
+              Recategorización de monotributo: cuándo y cómo hacerla
+            </h3>
+
+            <p className="mt-2 text-sm text-slate-600">
+              Qué datos revisar, cuándo corresponde recategorizarse y cómo
+              evitar errores con AFIP.
+            </p>
+
+            <a
+              href="/recategorizacion-monotributo"
+              className="mt-3 inline-block text-sm font-semibold text-blue-700 hover:underline"
+            >
+              Leer guía completa →
+            </a>
+          </div>
           <div className="rounded-2xl border border-slate-200 bg-white p-5">
             <p className="text-[11px] uppercase tracking-[0.2em] text-slate-500">
               Guía práctica

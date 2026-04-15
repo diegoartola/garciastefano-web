@@ -182,8 +182,12 @@ export default function Page() {
         </section>
         <section className="mt-12">
           <h2 className="text-xl font-semibold text-slate-900">
-            Contabilidad y balances para empresas
+            Contabilidad y balances para empresas (servicio avanzado)
           </h2>
+          <p className="mt-2 text-xs text-slate-500">
+            Orientado a empresas que requieren mayor nivel de seguimiento y
+            organización.
+          </p>
 
           <p className="mt-3 text-sm leading-6 text-slate-600">
             También brindamos servicios contables orientados a empresas que

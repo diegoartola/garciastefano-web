@@ -182,7 +182,43 @@ export default function LasFloresPage() {
             </div>
           </div>
         </section>
+        <section className="mt-12">
+          <h2 className="text-xl font-semibold text-slate-900">
+            Contabilidad y balances para empresas (servicio avanzado)
+          </h2>
+          <p className="mt-2 text-xs text-slate-500">
+            Orientado a empresas que requieren mayor nivel de seguimiento y
+            organización.
+          </p>
 
+          <p className="mt-3 text-sm leading-6 text-slate-600">
+            También brindamos servicios contables orientados a empresas que
+            requieren información clara y ordenada para la toma de decisiones.
+          </p>
+
+          <ul className="mt-4 space-y-2 text-sm leading-6 text-slate-600">
+            <li>✔ Preparación de balances</li>
+            <li>✔ Estados contables</li>
+            <li>✔ Análisis de información financiera</li>
+            <li>✔ Organización contable integral</li>
+          </ul>
+
+          <p className="mt-4 text-sm leading-6 text-slate-600">
+            Este tipo de servicio está orientado a clientes que necesitan un
+            mayor nivel de seguimiento, orden y respaldo profesional.
+          </p>
+
+          <div className="mt-6">
+            <a
+              href="https://wa.me/5492215035412?text=Hola,%20quiero%20asesoramiento%20contable%20para%20empresa"
+              target="_blank"
+              rel="noopener noreferrer"
+              className="inline-block rounded-2xl bg-blue-700 px-6 py-3 text-sm font-semibold text-white transition hover:bg-blue-800"
+            >
+              Consultar por balances
+            </a>
+          </div>
+        </section>
         <section className="mt-12">
           <h2 className="text-xl font-semibold text-slate-900">
             ¿Por qué elegirnos?

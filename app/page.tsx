@@ -92,6 +92,10 @@ export default async function Home() {
             <p className="mt-4 text-sm text-slate-500">
               Respondemos habitualmente dentro de las 24 hs hábiles.
             </p>
+            <p className="mt-2 text-xs text-slate-500">
+              Atención en La Plata, Las Flores y toda la Provincia de Buenos
+              Aires · Modalidad online · Asesoramiento claro y confidencial
+            </p>
 
             <div className="mt-4 flex flex-col gap-2 text-sm text-slate-600 sm:flex-row sm:flex-wrap sm:gap-x-5 sm:gap-y-2 lg:justify-start">
               <span>✔ Atención personalizada</span>
